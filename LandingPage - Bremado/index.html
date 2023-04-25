@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page - LandingPage</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="/LandingPage/Bremado.png" sizes="32x32">
+  </head>
+  <body>
+    <div class="lc">
+      <h1>Login</h1>
+      <form id="login-form">
+        <label class="li" for="username">Usuário</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Digite seu nome de usuário"
+          required
+        />
+        <label class="li" for="password">Senha</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Digite sua senha"
+          required
+        />
+        <button type="submit">Entrar</button>
+        <h2>Login With:</h2>
+        <div class="LF">
+          <div id="RB">
+          <button>
+          <img src="FaceBook.png" alt="" height="50" width="50" />
+        </button>
+          <button>
+          <img src="Instagram.png" alt="" height="50" width="50" />
+        </button>
+          <button>
+          <img src="Google.png" alt="" height="50" width="50" />
+        </button>
+      </div>
+        </div>
+      </form>
+      <button id="ib">Frase Inspiradora</button>
+      <button id="remove-css-btn">Remover CSS</button>
+      <button id="remove-html-btn">Remover HTML</button>
+      <div id="it"></div>    
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+body {
+    background-color: white;
+    color: black;
+    background-image: url(https://camo.githubusercontent.com/cc9c151da02e163d61db8c01209c4a9cb6563b199be36c5fa9af944951ddb4aa/68747470733a2f2f692e70696e696d672e636f6d2f6f726967696e616c732f39632f38632f64622f39633863646262326264376236333765646435623361373637623734313533612e676966);
+    background-repeat: no-repeat;
+    background-size: 2485px 920px;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 30px;  
+}

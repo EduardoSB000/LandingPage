@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  height: 80%;
+  background-image: url("BKB.gif");
+  background-repeat: no-repeat;
+  background-size: 2486px 980px;
+}
+
+background {
+  min-width: 1000;
+  min-height: 900;
+  max-width: 2486;
+  max-height: 980;
+}
+
+p {
+  text-align: center;
+}
+
+html {
+  height: 80%;
+}
+
+.lc {
+  width: 400px;
+  margin: 300px auto;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #000000;
+  color: white;
+  border: black;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+::-webkit-scrollbar {
+  background-color: black;
+}
+
+.LF {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.RB {
+  background-color: black;
+}
